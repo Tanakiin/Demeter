@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arduino Data Display</title>
+    <script>
+        function fetchData() {
+            fetch('/data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('temperature').textContent = data.temperature;
+                    document.getElementById('humidity').textContent = data.humidity;
+                });
+        }
+
+        setInterval(fetchData, 1000); // Update data every second
+    </script>
+</head>
+<body>
+    <h1>Arduino Sensor Data</h1>
+    <p>Temperature: <span id="temperature"></span>°C</p>
+    <p>Humidity: <span id="humidity"></span>%</p>
+</body>
+</html>
