@@ -1,5 +1,6 @@
-# Current build only works on MacOS
+# Demeter - Spartahack 9
 
+## Current build only works on MacOS
 ## Use the following steps to run on Windows
 
 - Open Arduino IDE and plug in the Arduino (selecting the right port and board)
