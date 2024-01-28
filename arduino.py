@@ -4,7 +4,7 @@ import serial
 
 app = Flask(__name__)
 CORS(app)
-arduino = serial.Serial('COM5', 115200, timeout=1)
+arduino = serial.Serial('/dev/tty.usbserial-0001', 115200, timeout=1)
 
 @app.route('/sensor_data')
 def sensor_data():
