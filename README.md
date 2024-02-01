@@ -7,8 +7,15 @@
 
 - What sets Demeter apart is its integration with a custom-made website, designed for comprehensive monitoring and management of plant care data. Through this website, users can gain insights into their plant's needs, and adjust care routines based on empirical data, making Demeter an invaluable tool for both novice and experienced gardeners alike.
 
-## Current build only works on MacOS
-## Use the following steps to run on Windows
+![Arduino Setup](https://media.discordapp.net/attachments/657999029141110805/1202720467253989417/IMG_3368.jpg)
+
+## Setup
+
+- Install all required libraries from the header of Arduino.ino
+- Appropriate pins have been labeled at the start of the code and in the image to wire sensors to shield
+
+### Current build only works on MacOS
+### Use the following steps to run on Windows
 
 - Open Arduino IDE and plug in the Arduino (selecting the right port and board)
 - In the bottom right, copy down the serial bus (usually COM# in windows)
