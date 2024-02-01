@@ -1,5 +1,12 @@
 # Demeter - Spartahack 9
 
+## What is Demeter
+- Demeter is designed as an intelligent plant care system that employs a suite of sensors and actuators to create an optimal environment for plant growth. At its core, Demeter consists of a custom Arduino board that uses sensors to accurately measure temperature, humidity, light intensity, and proximity to both the user and potential threats, such as pests. This data is crucial for assessing the immediate conditions surrounding the plant, ensuring that it receives the right amount of warmth, moisture, and light.
+
+- To interact with the user, Demeter features an OLED display that presents vital information in an easily digestible format, allowing for quick checks on the plant's environment. For immediate threats, such as pests coming too close, Demeter is equipped with a bright LED and a loud buzzer. These actuators serve a dual purpose: deterring pests with sudden light and sound, and alerting the user to potential issues that need their attention.
+
+- What sets Demeter apart is its integration with a custom-made website, designed for comprehensive monitoring and management of plant care data. Through this website, users can gain insights into their plant's needs, and adjust care routines based on empirical data, making Demeter an invaluable tool for both novice and experienced gardeners alike.
+
 ## Current build only works on MacOS
 ## Use the following steps to run on Windows
 
