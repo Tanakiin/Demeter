@@ -7,7 +7,7 @@
 
 - What sets Demeter apart is its integration with a custom-made website, designed for comprehensive monitoring and management of plant care data. Through this website, users can gain insights into their plant's needs, and adjust care routines based on empirical data, making Demeter an invaluable tool for both novice and experienced gardeners alike.
 
-![Arduino Setup](https://imgur.com/a/DH2yuyB)
+![Arduino Setup](https://i.imgur.com/DWvXxPw.jpeg)
 
 ## Setup
 
